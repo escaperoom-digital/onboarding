@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>telegram</title>
+    <defs>
+        <linearGradient x1="64.6541667%" y1="15.8041667%" x2="39.6541667%" y2="74.1366667%" id="linearGradient-1">
+            <stop stop-color="#37AEE2" offset="0%"></stop>
+            <stop stop-color="#1E96C8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="61.3438559%" y1="47.9973782%" x2="80.4983437%" y2="73.6884305%" id="linearGradient-2">
+            <stop stop-color="#EFF7FC" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="telegram" fill-rule="nonzero">
+            <path d="M100,50 C100,77.625 77.625,100 50,100 C22.375,100 0,77.625 0,50 C0,22.375 22.375,0 50,0 C77.625,0 100,22.375 100,50 Z" id="path2995-1-0" fill="url(#linearGradient-1)"></path>
+            <path d="M40.8333333,72.9166667 C39.2083333,72.9166667 39.5,72.2916667 38.9166667,70.75 L34.1666667,55.0833333 L63.6666667,36.6666667 L67.125,37.5833333 L64.25,45.4166667 L40.8333333,72.9166667 Z" id="path2993" fill="#C8DAEA"></path>
+            <path d="M40.8333333,72.9166667 C42.0833333,72.9166667 42.625,72.3333333 43.3333333,71.6666667 C44.4166667,70.625 58.3333333,57.0833333 58.3333333,57.0833333 L49.7916667,55 L41.875,60 L40.8333333,72.5 L40.8333333,72.9166667 Z" id="path2989" fill="#A9C9DD"></path>
+            <path d="M41.6666667,60.1666667 L61.8333333,75.0416667 C64.125,76.2916667 65.7916667,75.6666667 66.375,72.9166667 L74.5833333,34.25 C75.4166667,30.875 73.2916667,29.375 71.0833333,30.375 L22.9166667,48.9583333 C19.625,50.2916667 19.6666667,52.125 22.3333333,52.9166667 L34.7083333,56.7916667 L63.3333333,38.75 C64.6666667,37.9166667 65.9166667,38.375 64.9166667,39.2916667 L41.6666667,60.1666667 Z" id="path2991" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>

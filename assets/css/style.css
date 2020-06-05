@@ -1,0 +1,483 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #1c1c1e;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+  max-width: 80%;
+}
+
+@media only screen and (min-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+h3 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #f12c22;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0 0.5em;
+}
+
+p {
+  color: #aeaeb2;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+a.button {
+  display: block;
+  background: #f12c22;
+  color: #fff;
+  font-size: 1rem;
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1;
+}
+
+a.button.button__secondary {
+  background: #3A3A3C;
+}
+
+a.button.button__disabled {
+  background: #2C2C2E;
+  border: solid 2px #1c1c1e;
+}
+
+a.button.button__icon {
+  background: #3A3A3C;
+  padding: 1rem 2rem;
+}
+
+.container {
+  width: 100%;
+  padding: 0 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body > footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 1.5rem;
+  background: #1c1c1e;
+}
+
+@media only screen and (min-width: 500px) {
+  body > footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    max-width: 960px;
+    margin: 0 auto;
+    width: 85%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background: #2c2c2e;
+  }
+}
+
+body > footer a.button__icon {
+  display: none;
+}
+
+@media only screen and (min-width: 500px) {
+  body > footer a.button__icon {
+    display: block !important;
+  }
+}
+
+body > footer p.info {
+  font-size: 0.75rem;
+  margin: 0 0.5rem 1.5rem 0.5rem;
+}
+
+@media only screen and (min-width: 500px) {
+  body > footer p.info {
+    max-width: 400px;
+    margin: 0rem 2rem;
+    text-align: justify;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  body > footer .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  body > footer .buttons a.button {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    white-space: nowrap;
+  }
+}
+
+body > footer .buttons a.button:not(:first-of-type) {
+  margin-top: 0.75rem;
+}
+
+@media only screen and (min-width: 500px) {
+  body > footer .buttons a.button:not(:first-of-type) {
+    margin-right: 0.75rem;
+    margin-top: 0rem;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  body > footer .buttons a.button.button__secondary {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+}
+
+input[type="text"],
+input[type="tel"] {
+  background: none;
+  border: 2px solid #8E8E93;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  margin: 0;
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder {
+  color: #AEAEB2;
+}
+
+input[type="text"]:-ms-input-placeholder,
+input[type="tel"]:-ms-input-placeholder {
+  color: #AEAEB2;
+}
+
+input[type="text"]::-ms-input-placeholder,
+input[type="tel"]::-ms-input-placeholder {
+  color: #AEAEB2;
+}
+
+input[type="text"]::placeholder,
+input[type="tel"]::placeholder {
+  color: #AEAEB2;
+}
+
+input[type="text"]:active,
+input[type="tel"]:active {
+  background: none;
+}
+
+@media only screen and (min-width: 500px) {
+  input[type="text"],
+  input[type="tel"] {
+    width: auto;
+    min-width: 300px;
+  }
+}
+
+img.emoji {
+  height: 6rem;
+}
+
+@media only screen and (min-width: 500px) {
+  main.screen {
+    max-width: 960px;
+    margin: 0 auto;
+    width: 85%;
+    padding-top: 2rem;
+  }
+}
+
+main.screen section header {
+  padding-bottom: 1.25rem;
+}
+
+main.screen#intro aside.red-bg {
+  min-height: 35vh;
+  background: #f12c22;
+}
+
+@media only screen and (min-width: 500px) {
+  main.screen#intro aside.red-bg {
+    border-radius: 1rem;
+  }
+}
+
+main.screen#intro section.intro {
+  padding-top: 3rem;
+}
+
+main.screen#username section.username {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: calc(100vh - 7rem);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main.screen#select-networks {
+  padding-bottom: 11rem;
+}
+
+@media only screen and (min-width: 500px) {
+  main.screen#select-networks {
+    padding-bottom: 7rem;
+  }
+}
+
+main.screen#select-networks section.select-networks {
+  padding-top: 3rem;
+}
+
+main.screen#select-networks section.select-networks main ul li {
+  padding: 1rem 0;
+}
+
+main.screen#select-networks section.select-networks main ul li div.label {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main.screen#select-networks section.select-networks main ul li div.label img.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  margin-right: 1rem;
+}
+
+main.screen#select-networks section.select-networks main ul li div.label span.label {
+  font-weight: 600;
+  line-height: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: block;
+}
+
+main.screen#select-networks section.select-networks main ul li div.label button.add,
+main.screen#select-networks section.select-networks main ul li div.label button.check {
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  border: 2px solid #8E8E93;
+  background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: none;
+}
+
+main.screen#select-networks section.select-networks main ul li div.label button.check {
+  border-color: #30D158;
+}
+
+main.screen#select-networks section.select-networks main ul li div.input {
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 500px) {
+  main.screen#select-networks section.select-networks main ul li div.input input {
+    width: 100%;
+  }
+}
+
+main.screen#select-networks section.select-networks main ul li:not(:first-of-type) {
+  border-top: 2px solid #3A3A3C;
+}
+/*# sourceMappingURL=style.css.map */
