@@ -10,14 +10,14 @@
 </head>
 
 <body>
-    <main class="screen" id="select-networks">
+    <main class="align-center" style="padding-bottom: 11rem">
         <section class="select-networks container">
             <header>
                 <h3>Game-Party von Florentin</h3>
                 <h1>Hi Florentin, wie können wir dich erreichen?</h1>
                 <p>Während des Spiels erhälst du immer wieder Hinweise, dich einen Schritt weiterbringen.</p>
             </header>
-            <main class="select-networks">
+            <main>
                 <ul>
                     <li>
                         <div class="label">
@@ -33,7 +33,8 @@
                             <button class="check"><img src="./assets/img/icons/check.svg" alt="Check"></button>
                         </div>
                         <div class="input"><input type="tel" name="wa-number" placeholder="Deine Rufnummer"
-                                id="wa-number"></div>
+                                id="wa-number">
+                        </div>
                     </li>
                     <li>
                         <div class="label">
@@ -75,14 +76,19 @@
         </section>
     </main>
     <footer>
-        <a href="username-new-game.html" class="button button__icon"><img src="./assets/img/icons/back.svg"
-                alt="Zurück Button"></a>
-        <p class="info">Wir nutzen diese Daten, um dich während des Spiels mit immer neuen Rätseln zu versorgen.
-            Über dieses Spiel hinaus werden diene Daten nicht gespeichert.</p>
-        <div class="buttons">
+        <div class="back-button-wrapper">
+            <a href="username-new-game.html" class="button button__icon button__back">
+                <img src="./assets/img/icons/back.svg" alt="Back Button">
+            </a>
+        </div>
+        <div class="info-wrapper">
+            <p class="small">Wir nutzen diese Daten, um dich während des Spiels mit immer neuen Rätseln zu versorgen.
+                Über dieses Spiel hinaus werden diene Daten nicht gespeichert.</p>
+        </div>
+        <div class="next-button-wrapper">
             <!-- <a href="waiting-for-players.html" class="button button__disabled">Wähle eine
                 Kontaktmöglichkeit</a> -->
-            <a href="waiting-for-players.html" class="button">Weiter</a>
+            <a href="waiting-for-players.html" class="button">Spiel beitreten</a>
         </div>
     </footer>
 </body>
